@@ -1,0 +1,10 @@
+#recipe Blog
+#theme CleanBlog
+
+// Customize your settings and add new ones here
+Settings[Keys.Host] = "www.christopherhyne.com";
+Settings[BlogKeys.Title] = "My Blog";
+Settings[BlogKeys.Description] = "Welcome!";
+Settings[BlogKeys.Image] = "/images/milky-way.jpeg";
+
+// Add any pipeline customizations here
