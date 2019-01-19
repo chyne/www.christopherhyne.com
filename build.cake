@@ -13,7 +13,6 @@ Task("Build")
     });
     
 Task("Preview")
-    .IsDependentOn("Build")
     .Does(() =>
     {
         Wyam(new WyamSettings
