@@ -17,6 +17,8 @@ Task("Preview")
     {
         Wyam(new WyamSettings
         {
+            Recipe = "Blog",
+            Theme = "CleanBlog",
             Preview = true,
             Watch = true
         });        
